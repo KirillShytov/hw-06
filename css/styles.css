@@ -58,8 +58,8 @@ h3 {
 /* --------------------- */
 
 .container {
-  padding: 0 15px;
-  width: 1158px;
+  /* padding: 0 15px; */
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -268,7 +268,7 @@ header .container,
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  /* flex-basis: calc((100% - 3 * 24px) / 4); */
 }
 
 .section-title {
@@ -284,7 +284,9 @@ header .container,
 }
 .list-section-third {
   display: flex;
-  gap: 24px;
+  gap: 72px;
+  flex-wrap: wrap;
+  padding: 0 28px;
 }
 .text-third {
   font-size: 16px;
