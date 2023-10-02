@@ -58,9 +58,11 @@ h3 {
 /* --------------------- */
 
 .container {
-  /* padding: 0 15px; */
-  width: 100%;
-  margin: 0 auto;
+  min-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header .container,
@@ -287,7 +289,7 @@ header .container,
   display: flex;
   gap: 72px;
   flex-wrap: wrap;
-  padding: 0 28px;
+  justify-content: center;
 }
 .text-third {
   font-size: 16px;
