@@ -22,7 +22,7 @@ h6 {
   white-space: nowrap;
   clip-path: inser(100%);
   clip: rect(0 0 0 0);
-  overflow: hidd;
+  overflow: hidden;
 }
 img,
 svg {
@@ -788,6 +788,11 @@ header .container,
     top: 49%;
   }
 }
+@media only screen and (min-width: 1158px) {
+  .modal {
+    top: 53%;
+  }
+}
 .modal-close {
   position: absolute;
   top: 24px;
@@ -833,13 +838,13 @@ header .container,
   flex-direction: column;
 }
 .label-modal {
-  /* display: block;
+  display: block;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.48px;
   color: #8e8f99;
-  margin-bottom: 4px; */
+  margin-bottom: 4px;
 }
 .modal-text-area {
   width: 100%;
@@ -899,15 +904,6 @@ header .container,
 }
 .modal-input:focus + .modal-icon {
   fill: #4d5ae5;
-}
-.label-modal {
-  display: block;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.17;
-  letter-spacing: 0.48px;
-  color: #8e8f99;
-  margin-bottom: 4px;
 }
 
 .checkbox {
